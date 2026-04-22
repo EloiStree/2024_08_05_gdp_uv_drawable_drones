@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cqiuri28c4hxt"
-path.s3tc="res://.godot/imported/Car RC Body Futur UV Draw.png-7b9029417718e058f33e3b6cfe6b724a.s3tc.ctex"
+uid="uid://cnjw26pp0ldw2"
+path.s3tc="res://.godot/imported/UFO_Glass_D.png-f1fc49057ca3d233af3280d665cb7dc8.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/Car RC Body Futur UV Draw.png"
-dest_files=["res://.godot/imported/Car RC Body Futur UV Draw.png-7b9029417718e058f33e3b6cfe6b724a.s3tc.ctex"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/UFO_Glass_D.png"
+dest_files=["res://.godot/imported/UFO_Glass_D.png-f1fc49057ca3d233af3280d665cb7dc8.s3tc.ctex"]
 
 [params]
 

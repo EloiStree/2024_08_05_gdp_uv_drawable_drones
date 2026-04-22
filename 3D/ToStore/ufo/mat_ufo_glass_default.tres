@@ -1,0 +1,12 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dcw8x37wfjdnx"]
+
+[ext_resource type="Texture2D" uid="uid://cnjw26pp0ldw2" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/UFO_Glass_D.png" id="1_w5qcn"]
+[ext_resource type="Texture2D" uid="uid://dtjk0vtfoaatl" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/UFO_Glass_NM.png" id="2_pf3mq"]
+
+[resource]
+transparency = 1
+blend_mode = 1
+cull_mode = 2
+albedo_texture = ExtResource("1_w5qcn")
+bent_normal_enabled = true
+bent_normal_texture = ExtResource("2_pf3mq")

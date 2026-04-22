@@ -1,0 +1,9 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://dtk0krors47v2"]
+
+[ext_resource type="Texture2D" uid="uid://dyqoerknsnxwm" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/UFO_Body_D_ColorFull.png" id="1_mqdoy"]
+[ext_resource type="Texture2D" uid="uid://c68w1jx71iewr" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/UFO_Body_NM.png" id="2_w4r5j"]
+
+[resource]
+albedo_texture = ExtResource("1_mqdoy")
+normal_enabled = true
+normal_texture = ExtResource("2_w4r5j")
