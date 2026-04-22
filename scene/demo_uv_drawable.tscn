@@ -12,6 +12,17 @@
 [ext_resource type="Material" uid="uid://c2cia2nkxvlcn" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/BlackHornetDrone/mat_black_hornet.tres" id="8_qu03b"]
 [ext_resource type="PackedScene" uid="uid://cwu8mppq1mokh" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/QuadroDrone/Blender/DroneBody.fbx" id="9_21gft"]
 [ext_resource type="Material" uid="uid://d4gqei36jvudu" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/QuadroDrone/Blender/mat_flat_drone_body.tres" id="10_awljh"]
+[ext_resource type="PackedScene" uid="uid://dha4owk10hg4x" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/CarBodyFuturWheel.fbx" id="13_l3ujw"]
+[ext_resource type="Texture2D" uid="uid://cx7w6f8cpkkxm" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/Car RC Wheel Futur UV.png" id="14_0ocbe"]
+[ext_resource type="PackedScene" uid="uid://c8jhp0rge38jq" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_base.fbx" id="15_bv8k7"]
+[ext_resource type="PackedScene" uid="uid://dkecgresiawsv" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_dessus.fbx" id="16_wo7oo"]
+[ext_resource type="PackedScene" uid="uid://cp7fjyfmhycwh" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_helice.fbx" id="17_wes17"]
+[ext_resource type="PackedScene" uid="uid://br48p1a64k7y4" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_helice_finale.fbx" id="18_eb2y3"]
+[ext_resource type="PackedScene" uid="uid://ynsqsn4ewa03" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/LightCylinder.fbx" id="19_r5p84"]
+[ext_resource type="AudioStream" uid="uid://dlf6jv1ckcc86" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_sound.wav" id="20_q52ro"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_1nsye"]
+albedo_texture = ExtResource("14_0ocbe")
 
 [node name="DemoUvDrawable" type="Node3D" unique_id=1120428964]
 
@@ -77,24 +88,56 @@ mesh = ExtResource("8_n5sj3")
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5701983, 0, 0.65974593)
 
 [node name="DroneBody" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="0" unique_id=1068165536]
+transform = Transform3D(9.999996, 0, 0, 0, 9.999998, -6.82121e-13, 0, 6.82121e-13, 9.999998, 25.659153, 7.6326804, -13.88692)
 surface_material_override/0 = ExtResource("10_awljh")
 
 [node name="MotorDownLeft" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="1" unique_id=1112559604]
+transform = Transform3D(9.999996, 0, 0, 0, 9.999998, -6.82121e-13, 0, 6.82121e-13, 9.999998, 25.50165, 7.489429, -13.886915)
 surface_material_override/0 = ExtResource("10_awljh")
 
 [node name="MotorTopLeft" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="2" unique_id=1565673573]
+transform = Transform3D(9.999996, 0, 0, 0, 9.999998, -6.82121e-13, 0, 6.82121e-13, 9.999998, 25.50165, 7.8044276, -13.886914)
 surface_material_override/0 = ExtResource("10_awljh")
 
 [node name="MotorDownRight" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="3" unique_id=868582967]
+transform = Transform3D(9.999996, 0, 0, 0, 9.999998, -6.82121e-13, 0, 6.82121e-13, 9.999998, 25.816652, 7.489429, -13.886915)
 surface_material_override/0 = ExtResource("10_awljh")
 
 [node name="MotorTopRight" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="4" unique_id=1785468020]
+transform = Transform3D(9.999996, 0, 0, 0, 9.999998, -6.82121e-13, 0, 6.82121e-13, 9.999998, 25.816652, 7.8044276, -13.886914)
 surface_material_override/0 = ExtResource("10_awljh")
 
 [node name="FrontLight" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="5" unique_id=1149872677]
+transform = Transform3D(9.999996, 0, 0, 0, 9.999998, -6.82121e-13, 0, 6.82121e-13, 9.999998, 25.659153, 7.98331, -13.886914)
 surface_material_override/0 = ExtResource("10_awljh")
+
+[node name="CarBodyFuturWheel" parent="." unique_id=85298340 instance=ExtResource("13_l3ujw")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -3.5072026, 0, 0.13400722)
+
+[node name="Car RC Wheel Futur" parent="CarBodyFuturWheel" index="0" unique_id=1546679224]
+surface_material_override/0 = SubResource("StandardMaterial3D_1nsye")
+
+[node name="drone_base" parent="." unique_id=1335410451 instance=ExtResource("15_bv8k7")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6305861, -2.3841858e-07, -0.2116561)
+
+[node name="drone_dessus" parent="." unique_id=1759095063 instance=ExtResource("16_wo7oo")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6305861, -2.3841858e-07, -0.2116561)
+
+[node name="drone_helice" parent="." unique_id=288333253 instance=ExtResource("17_wes17")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6305861, 0.27671212, -0.2116561)
+
+[node name="drone_helice_finale" parent="." unique_id=2028737952 instance=ExtResource("18_eb2y3")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.6305861, 0.3936084, -0.2116561)
+
+[node name="LightCylinder" parent="." unique_id=1808099619 instance=ExtResource("19_r5p84")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1.5346886, 0, -2.546471)
+
+[node name="DroneSound" type="AudioStreamPlayer3D" parent="." unique_id=424292919]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 2.6371312, 0, -0.30931973)
+stream = ExtResource("20_q52ro")
 
 [editable path="FastDrone450"]
 [editable path="DualSideDrone"]
 [editable path="BlackHornetFbx"]
 [editable path="DroneBody"]
+[editable path="CarBodyFuturWheel"]
