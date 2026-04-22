@@ -1,0 +1,100 @@
+[gd_scene format=3 uid="uid://bqhwsm8cs3mos"]
+
+[ext_resource type="PackedScene" uid="uid://bgbbykvej3awv" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/FastFPV/FastDrone450.fbx" id="1_v7rgu"]
+[ext_resource type="Material" uid="uid://bwnvgs6qdahb0" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/FastFPV/mat_fast_fpv_450.tres" id="2_gpk46"]
+[ext_resource type="Material" uid="uid://db37k3kpuj5ck" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/FastFPV/mat_fast_fpv_glass.tres" id="3_ex4u3"]
+[ext_resource type="Material" uid="uid://lmmal0qceaxt" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/FastFPV/mat_fast_fpv_glade.tres" id="4_qu03b"]
+[ext_resource type="PackedScene" uid="uid://dnhs8xpptanov" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/DualSideDrone/DualSideDrone.fbx" id="5_6rb1u"]
+[ext_resource type="PackedScene" uid="uid://dubb7capmv5ti" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/BlackHornetDrone/BlackHornetFbx.fbx" id="6_2crjn"]
+[ext_resource type="Material" uid="uid://bnm5ytacytba5" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/DualSideDrone/mat_uv_car_drone.tres" id="6_ex4u3"]
+[ext_resource type="ArrayMesh" uid="uid://b556kqiwtfl4k" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/QuickSkidCar/CarBody.obj" id="7_p6j6g"]
+[ext_resource type="ArrayMesh" uid="uid://bwa2ij6b17ymp" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/QuickSkidCar/Wheel.obj" id="8_n5sj3"]
+[ext_resource type="Material" uid="uid://c2cia2nkxvlcn" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/BlackHornetDrone/mat_black_hornet.tres" id="8_qu03b"]
+[ext_resource type="PackedScene" uid="uid://cwu8mppq1mokh" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/QuadroDrone/Blender/DroneBody.fbx" id="9_21gft"]
+[ext_resource type="Material" uid="uid://d4gqei36jvudu" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/QuadroDrone/Blender/mat_flat_drone_body.tres" id="10_awljh"]
+
+[node name="DemoUvDrawable" type="Node3D" unique_id=1120428964]
+
+[node name="FastDrone450" parent="." unique_id=1209635524 instance=ExtResource("1_v7rgu")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1.2828654, 0)
+
+[node name="FastDroneBody" parent="FastDrone450/2024_10_04_FastDrone450 v2" parent_id_path=PackedInt32Array(1209635524, 592059706) index="0" unique_id=1540820971]
+surface_material_override/0 = ExtResource("2_gpk46")
+
+[node name="FastDroneCameraTip" parent="FastDrone450/2024_10_04_FastDrone450 v2" parent_id_path=PackedInt32Array(1209635524, 592059706) index="1" unique_id=1287346810]
+surface_material_override/0 = ExtResource("3_ex4u3")
+
+[node name="BladeSO" parent="FastDrone450/2024_10_04_FastDrone450 v2" parent_id_path=PackedInt32Array(1209635524, 592059706) index="2" unique_id=724814107]
+surface_material_override/0 = ExtResource("4_qu03b")
+
+[node name="BladeSE" parent="FastDrone450/2024_10_04_FastDrone450 v2" parent_id_path=PackedInt32Array(1209635524, 592059706) index="3" unique_id=451544654]
+surface_material_override/0 = ExtResource("4_qu03b")
+
+[node name="BladeNO" parent="FastDrone450/2024_10_04_FastDrone450 v2" parent_id_path=PackedInt32Array(1209635524, 592059706) index="4" unique_id=1359760782]
+surface_material_override/0 = ExtResource("4_qu03b")
+
+[node name="BladeNE" parent="FastDrone450/2024_10_04_FastDrone450 v2" parent_id_path=PackedInt32Array(1209635524, 592059706) index="5" unique_id=1256536670]
+surface_material_override/0 = ExtResource("4_qu03b")
+
+[node name="DualSideDrone" parent="." unique_id=1017356920 instance=ExtResource("5_6rb1u")]
+
+[node name="CarDroneBody" parent="DualSideDrone" index="0" unique_id=1820432184]
+surface_material_override/0 = ExtResource("6_ex4u3")
+
+[node name="WheelFrontLeft" parent="DualSideDrone" index="1" unique_id=1869573274]
+surface_material_override/0 = ExtResource("6_ex4u3")
+
+[node name="WheelFrontRight" parent="DualSideDrone" index="2" unique_id=1233306584]
+surface_material_override/0 = ExtResource("6_ex4u3")
+
+[node name="WheelBackRight" parent="DualSideDrone" index="3" unique_id=1795290397]
+surface_material_override/0 = ExtResource("6_ex4u3")
+
+[node name="WheelBackLeft" parent="DualSideDrone" index="4" unique_id=76406039]
+surface_material_override/0 = ExtResource("6_ex4u3")
+
+[node name="BlackHornetFbx" parent="." unique_id=15656427 instance=ExtResource("6_2crjn")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.8225827, 0)
+
+[node name="BlackHornet Body" parent="BlackHornetFbx" index="0" unique_id=1589580553]
+surface_material_override/0 = ExtResource("8_qu03b")
+
+[node name="BlackHornet SideBlade" parent="BlackHornetFbx" index="1" unique_id=1340453445]
+surface_material_override/0 = ExtResource("8_qu03b")
+
+[node name="BlackHornet TopBlade" parent="BlackHornetFbx" index="2" unique_id=1799827493]
+surface_material_override/0 = ExtResource("8_qu03b")
+
+[node name="CarBody" type="MeshInstance3D" parent="." unique_id=1254139517]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.17141843, 0, 1.5386466)
+mesh = ExtResource("7_p6j6g")
+
+[node name="Wheel" type="MeshInstance3D" parent="." unique_id=1673263048]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0.14151704, 0, 1.7091322)
+mesh = ExtResource("8_n5sj3")
+
+[node name="DroneBody" parent="." unique_id=866464382 instance=ExtResource("9_21gft")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, -1.5701983, 0, 0.65974593)
+
+[node name="DroneBody" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="0" unique_id=1068165536]
+surface_material_override/0 = ExtResource("10_awljh")
+
+[node name="MotorDownLeft" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="1" unique_id=1112559604]
+surface_material_override/0 = ExtResource("10_awljh")
+
+[node name="MotorTopLeft" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="2" unique_id=1565673573]
+surface_material_override/0 = ExtResource("10_awljh")
+
+[node name="MotorDownRight" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="3" unique_id=868582967]
+surface_material_override/0 = ExtResource("10_awljh")
+
+[node name="MotorTopRight" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="4" unique_id=1785468020]
+surface_material_override/0 = ExtResource("10_awljh")
+
+[node name="FrontLight" parent="DroneBody/FlatDrone v3" parent_id_path=PackedInt32Array(866464382, 547042888) index="5" unique_id=1149872677]
+surface_material_override/0 = ExtResource("10_awljh")
+
+[editable path="FastDrone450"]
+[editable path="DualSideDrone"]
+[editable path="BlackHornetFbx"]
+[editable path="DroneBody"]

@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://c2cia2nkxvlcn"]
+
+[ext_resource type="Texture2D" uid="uid://b4lm4taaiqk54" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/BlackHornetDrone/BlackHornetUVTexture.png" id="1_th6sd"]
+
+[resource]
+albedo_texture = ExtResource("1_th6sd")

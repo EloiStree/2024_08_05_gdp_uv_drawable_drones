@@ -1,0 +1,6 @@
+[gd_resource type="StandardMaterial3D" format=3 uid="uid://bnm5ytacytba5"]
+
+[ext_resource type="Texture2D" uid="uid://cr4qvg3etbs38" path="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/DualSideDrone/UvCarDroneBody Color.png" id="1_cnf0i"]
+
+[resource]
+albedo_texture = ExtResource("1_cnf0i")
