@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://c8jhp0rge38jq"
-path="res://.godot/imported/drone_base.fbx-b1ffb1a45eedb23ffa9bd142ec3121a0.scn"
+uid="uid://dkecgresiawsv"
+path="res://.godot/imported/drone_dessus.fbx-2f18011571712ca37bcfd6a5ab8a4544.scn"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_base.fbx"
-dest_files=["res://.godot/imported/drone_base.fbx-b1ffb1a45eedb23ffa9bd142ec3121a0.scn"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/tello/drone_dessus.fbx"
+dest_files=["res://.godot/imported/drone_dessus.fbx-2f18011571712ca37bcfd6a5ab8a4544.scn"]
 
 [params]
 

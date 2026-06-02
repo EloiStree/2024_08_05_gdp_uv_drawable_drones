@@ -2,20 +2,21 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://i0s34sn5im5r"
-path="res://.godot/imported/UV_LightProjection.png-945872ce0ea1d01c913ab3abfc033f12.ctex"
+uid="uid://c11n1x7a75v63"
+path.s3tc="res://.godot/imported/car_body_futur_body_uv_color.png-1b3102f92791a4dc09b8aebffad3e922.s3tc.ctex"
 metadata={
-"vram_texture": false
+"imported_formats": ["s3tc_bptc"],
+"vram_texture": true
 }
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/UV_LightProjection.png"
-dest_files=["res://.godot/imported/UV_LightProjection.png-945872ce0ea1d01c913ab3abfc033f12.ctex"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/car_futur/assets/car_body_futur_body_uv_color.png"
+dest_files=["res://.godot/imported/car_body_futur_body_uv_color.png-1b3102f92791a4dc09b8aebffad3e922.s3tc.ctex"]
 
 [params]
 
-compress/mode=0
+compress/mode=2
 compress/high_quality=false
 compress/lossy_quality=0.7
 compress/uastc_level=0
@@ -23,7 +24,7 @@ compress/rdo_quality_loss=0.0
 compress/hdr_compression=1
 compress/normal_map=0
 compress/channel_pack=0
-mipmaps/generate=false
+mipmaps/generate=true
 mipmaps/limit=-1
 roughness/mode=0
 roughness/src_normal=""
@@ -37,4 +38,4 @@ process/normal_map_invert_y=false
 process/hdr_as_srgb=false
 process/hdr_clamp_exposure=false
 process/size_limit=0
-detect_3d/compress_to=1
+detect_3d/compress_to=0

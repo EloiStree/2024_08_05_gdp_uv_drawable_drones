@@ -3,12 +3,12 @@
 importer="wav"
 type="AudioStreamWAV"
 uid="uid://dlf6jv1ckcc86"
-path="res://.godot/imported/drone_sound.wav-56592d2004518e7d812feb925557e046.sample"
+path="res://.godot/imported/drone_sound.wav-8015c4ca5bc604fedd4bdab9085a8e02.sample"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_sound.wav"
-dest_files=["res://.godot/imported/drone_sound.wav-56592d2004518e7d812feb925557e046.sample"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/tello/drone_sound.wav"
+dest_files=["res://.godot/imported/drone_sound.wav-8015c4ca5bc604fedd4bdab9085a8e02.sample"]
 
 [params]
 

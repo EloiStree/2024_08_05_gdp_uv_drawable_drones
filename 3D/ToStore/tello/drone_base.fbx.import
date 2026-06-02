@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://ynsqsn4ewa03"
-path="res://.godot/imported/LightCylinder.fbx-05793b4393f65f7dfee46fdb437d3cbd.scn"
+uid="uid://c8jhp0rge38jq"
+path="res://.godot/imported/drone_base.fbx-ea7560cf11b298632538e5ab963ece34.scn"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/LightCylinder.fbx"
-dest_files=["res://.godot/imported/LightCylinder.fbx-05793b4393f65f7dfee46fdb437d3cbd.scn"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/tello/drone_base.fbx"
+dest_files=["res://.godot/imported/drone_base.fbx-ea7560cf11b298632538e5ab963ece34.scn"]
 
 [params]
 

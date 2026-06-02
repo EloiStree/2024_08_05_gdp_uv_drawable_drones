@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://uei6swvhx1kw"
-path="res://.godot/imported/CarBodyFutur.fbx-bd7aea79252e5cc00112123200d43015.scn"
+uid="uid://br48p1a64k7y4"
+path="res://.godot/imported/drone_helice_finale.fbx-1f2df354abef7dc5d8c25b57082729aa.scn"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/CarBodyFutur.fbx"
-dest_files=["res://.godot/imported/CarBodyFutur.fbx-bd7aea79252e5cc00112123200d43015.scn"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/tello/drone_helice_finale.fbx"
+dest_files=["res://.godot/imported/drone_helice_finale.fbx-1f2df354abef7dc5d8c25b57082729aa.scn"]
 
 [params]
 

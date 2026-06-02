@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://dkecgresiawsv"
-path="res://.godot/imported/drone_dessus.fbx-f4928e1eb4581b3d6fbced5ce736bc8e.scn"
+uid="uid://ynsqsn4ewa03"
+path="res://.godot/imported/light_cylinder.fbx-717c57dc0bac8a01d83eab91a1620c7c.scn"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_dessus.fbx"
-dest_files=["res://.godot/imported/drone_dessus.fbx-f4928e1eb4581b3d6fbced5ce736bc8e.scn"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/light_cylinder/light_cylinder.fbx"
+dest_files=["res://.godot/imported/light_cylinder.fbx-717c57dc0bac8a01d83eab91a1620c7c.scn"]
 
 [params]
 

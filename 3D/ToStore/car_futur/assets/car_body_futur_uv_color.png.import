@@ -2,8 +2,8 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://cnjw26pp0ldw2"
-path.s3tc="res://.godot/imported/ufo_glass_d.png-504ed623caa2b9015b09d0ecb8f85f62.s3tc.ctex"
+uid="uid://ci4phk062x0eq"
+path.s3tc="res://.godot/imported/car_body_futur_uv_color.png-f444694c050ab131d2eef82d644cfeff.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/ufo_glass_d.png"
-dest_files=["res://.godot/imported/ufo_glass_d.png-504ed623caa2b9015b09d0ecb8f85f62.s3tc.ctex"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/car_futur/assets/car_body_futur_uv_color.png"
+dest_files=["res://.godot/imported/car_body_futur_uv_color.png-f444694c050ab131d2eef82d644cfeff.s3tc.ctex"]
 
 [params]
 

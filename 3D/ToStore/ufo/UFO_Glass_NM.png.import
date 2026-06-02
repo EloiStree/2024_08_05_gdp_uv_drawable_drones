@@ -3,7 +3,7 @@
 importer="texture"
 type="CompressedTexture2D"
 uid="uid://dtjk0vtfoaatl"
-path.s3tc="res://.godot/imported/UFO_Glass_NM.png-b28b4b8ed11ebaae04c7e9d7c3cddc78.s3tc.ctex"
+path.s3tc="res://.godot/imported/ufo_glass_nm.png-897ed92ceb6f108cb488b7a55f3e581e.s3tc.ctex"
 metadata={
 "imported_formats": ["s3tc_bptc"],
 "vram_texture": true
@@ -11,8 +11,8 @@ metadata={
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/UFO_Glass_NM.png"
-dest_files=["res://.godot/imported/UFO_Glass_NM.png-b28b4b8ed11ebaae04c7e9d7c3cddc78.s3tc.ctex"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/ufo_glass_nm.png"
+dest_files=["res://.godot/imported/ufo_glass_nm.png-897ed92ceb6f108cb488b7a55f3e581e.s3tc.ctex"]
 
 [params]
 

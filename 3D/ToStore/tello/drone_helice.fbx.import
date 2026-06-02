@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://cp7fjyfmhycwh"
-path="res://.godot/imported/drone_helice.fbx-a98796d078badcd7e623461d9f22c4a3.scn"
+path="res://.godot/imported/drone_helice.fbx-7f5eb6aa6fd32830581933c4479b497c.scn"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/drone_helice.fbx"
-dest_files=["res://.godot/imported/drone_helice.fbx-a98796d078badcd7e623461d9f22c4a3.scn"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/tello/drone_helice.fbx"
+dest_files=["res://.godot/imported/drone_helice.fbx-7f5eb6aa6fd32830581933c4479b497c.scn"]
 
 [params]
 

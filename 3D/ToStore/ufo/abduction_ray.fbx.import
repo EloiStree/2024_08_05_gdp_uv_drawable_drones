@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://bnopqkxkmvjx7"
-path="res://.godot/imported/AbductionRay.fbx-7ded40675ef348a308217a461ceadaf0.scn"
+path="res://.godot/imported/abduction_ray.fbx-ad8c1c361d2fb9fd0be280caea9bd130.scn"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/AbductionRay.fbx"
-dest_files=["res://.godot/imported/AbductionRay.fbx-7ded40675ef348a308217a461ceadaf0.scn"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/abduction_ray.fbx"
+dest_files=["res://.godot/imported/abduction_ray.fbx-ad8c1c361d2fb9fd0be280caea9bd130.scn"]
 
 [params]
 

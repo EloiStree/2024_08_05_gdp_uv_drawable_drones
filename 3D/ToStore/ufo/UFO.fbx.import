@@ -4,12 +4,12 @@ importer="scene"
 importer_version=1
 type="PackedScene"
 uid="uid://c8iet322ko102"
-path="res://.godot/imported/UFO.fbx-d5ada672a1848234fa2f5e7342ac2372.scn"
+path="res://.godot/imported/ufo.fbx-6fea4475fbbebd7a4ad70bfece201abd.scn"
 
 [deps]
 
-source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/UFO.fbx"
-dest_files=["res://.godot/imported/UFO.fbx-d5ada672a1848234fa2f5e7342ac2372.scn"]
+source_file="res://addons/2024_08_05_gdp_uv_drawable_drones/3D/ToStore/ufo/ufo.fbx"
+dest_files=["res://.godot/imported/ufo.fbx-6fea4475fbbebd7a4ad70bfece201abd.scn"]
 
 [params]
 
